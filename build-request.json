@@ -1,0 +1,220 @@
+{
+  "kind": "build_request",
+  "title": "Build Marisol's Beauty Salon website with booking system",
+  "projectName": "Marisol's Beauty Salon",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Create a hero section with headline 'Enhancing Your Natural Beauty with Style & Care', subheadline 'Professional Hair & Beauty Services in San Fernando, CA', and two CTA buttons: 'Book Appointment' (scrolls to booking form) and 'Call Now – (747) 279-8532' with click-to-call functionality (tel: link)",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "1️⃣ Hero Section\nHigh-quality salon interior image\nHeadline: \"Enhancing Your Natural Beauty with Style & Care\"\nSubheadline: Professional Hair & Beauty Services in San Fernando, CA\nCTA Buttons:\nBook Appointment\nCall Now – (747) 279-8532 (click-to-call enabled)"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Hero section displays the headline and subheadline prominently",
+        "Two CTA buttons are visible and styled consistently",
+        "Call Now button uses tel:(747) 279-8532 link for click-to-call",
+        "Book Appointment button scrolls smoothly to the booking form section"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Create an About Us section that introduces Marisol as a skilled and experienced hairstylist dedicated to client satisfaction, highlights friendly service, professional techniques, and mentions the 4.6-star rating",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "2️⃣ About Us\nIntroduce Marisol as a skilled and experienced hairstylist dedicated to client satisfaction.\nHighlight friendly service, professional techniques, and strong local reputation (4.6-star rating)."
+        ]
+      },
+      "acceptanceCriteria": [
+        "Section includes introduction text about Marisol's expertise",
+        "4.6-star rating is visually displayed",
+        "Content conveys warmth and professionalism"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Create a Services section with detailed service cards for: Haircut & Styling, Hair Coloring, Hair Treatments, Blow Dry, and Beauty Services. Each card should include a description and starting price placeholder",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "3️⃣ Services Section\nInclude detailed service cards with descriptions and starting prices:\nHaircut & Styling\nHair Coloring\nHair Treatments\nBlow Dry\nBeauty Services"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Five service cards are displayed with titles, descriptions, and starting prices",
+        "Cards are visually consistent and easy to read",
+        "Layout works on mobile and desktop"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Implement an online booking form with fields for Full Name, Phone Number, Email, Select Service (dropdown with the five services), Preferred Date, Preferred Time, and a Submit button. Store booking submissions in the backend",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "4️⃣ Online Booking System\nSimple, user-friendly booking form including:\nFull Name\nPhone Number\nEmail\nSelect Service\nPreferred Date & Time\nSubmit Button"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Form includes all required fields with proper input types",
+        "Service dropdown lists all five services",
+        "Date and time inputs are user-friendly",
+        "Form submission stores booking data in backend",
+        "User receives confirmation after successful submission"
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "text": "Create a Gallery section with a modern grid layout displaying before & after transformations and interior salon images",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "5️⃣ Gallery\nModern grid layout showing:\nBefore & After transformations\nInterior salon images"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Gallery displays images in a responsive grid layout",
+        "Images are optimized for web performance",
+        "Grid adjusts appropriately for mobile devices"
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "text": "Create a Reviews section displaying a 4.6-star Google rating and 3-5 client testimonials with star ratings",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "6️⃣ Reviews Section\nDisplay:\n4.6-star Google rating\n3–5 client testimonials"
+        ]
+      },
+      "acceptanceCriteria": [
+        "4.6-star rating is prominently displayed with star icons",
+        "3-5 testimonial cards are shown with client names and ratings",
+        "Section is visually appealing and trustworthy"
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "text": "Create a Contact section displaying the address '11430 Laurel Canyon Blvd C, San Fernando, CA 91340', phone number '(747) 279-8532' with click-to-call functionality, an embedded Google Map for the address, and business hours",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "7️⃣ Contact Section\nAddress: 11430 Laurel Canyon Blvd C, San Fernando, CA 91340\nPhone: (747) 279-8532\nClick-to-call enabled\nEmbedded Google Map\nBusiness hours"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Address is displayed and formatted correctly",
+        "Phone number uses tel:(747) 279-8532 link for click-to-call",
+        "Google Map is embedded showing the correct location",
+        "Business hours are clearly listed"
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "text": "Apply a soft feminine color palette using rose gold, beige, white, and black accents consistently throughout the website. Design should feel clean, stylish, premium, and trustworthy with a welcoming salon atmosphere",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Use a soft feminine color palette (rose gold, beige, white, and black accents). The design must feel clean, stylish, premium, and trustworthy."
+        ]
+      },
+      "acceptanceCriteria": [
+        "Color palette uses rose gold, beige, white, and black as primary colors",
+        "Typography and spacing convey elegance and professionalism",
+        "Overall design feels cohesive and premium",
+        "Design works harmoniously across all sections"
+      ]
+    },
+    {
+      "id": "REQ-9",
+      "text": "Ensure the website is fully mobile responsive with fast loading times and optimized images",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "8️⃣ Technical Requirements\nFully mobile responsive\nFast loading"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Website renders correctly on mobile, tablet, and desktop screens",
+        "Images are optimized for web (compressed, appropriate dimensions)",
+        "Page loads quickly without excessive delays"
+      ]
+    },
+    {
+      "id": "REQ-10",
+      "text": "Render generated salon-related images (hero background, gallery images, service icons) as static assets stored in frontend/public/assets/generated",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Generated images are stored in frontend/public/assets/generated",
+        "Images are referenced correctly in components",
+        "Images load without backend routing"
+      ]
+    }
+  ],
+  "constraints": [
+    "Use the single-actor Motoko architecture for backend booking storage",
+    "Do not modify immutable frontend paths (useInternetIdentity, useActor, main.tsx, ui components)",
+    "Phone number (747) 279-8532 must be preserved exactly as provided",
+    "Address '11430 Laurel Canyon Blvd C, San Fernando, CA 91340' must be preserved exactly"
+  ],
+  "nonGoals": [
+    "Integration with external booking systems or calendar APIs",
+    "Real-time chat or messaging features",
+    "Payment processing or e-commerce functionality",
+    "Social media API integrations",
+    "Email notification system for bookings",
+    "SMS reminders or notifications"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Modern, elegant beauty salon interior with styling chairs, mirrors, and soft lighting in rose gold and beige tones (hero-salon-interior.dim_1920x1080.png)",
+      "Professional hairstylist working on a client in a clean, modern salon setting (about-marisol.dim_800x600.png)",
+      "Haircut and styling service icon with scissors and comb in rose gold color (service-haircut.dim_400x400.png)",
+      "Hair coloring service icon with color palette and brush in rose gold color (service-coloring.dim_400x400.png)",
+      "Hair treatment service icon with botanical elements in rose gold color (service-treatment.dim_400x400.png)",
+      "Blow dry service icon with hair dryer in rose gold color (service-blowdry.dim_400x400.png)",
+      "Beauty services icon with makeup brush and cosmetics in rose gold color (service-beauty.dim_400x400.png)",
+      "Before and after hair transformation showing dramatic color change (gallery-transformation-1.dim_800x600.png)",
+      "Before and after hair transformation showing volume and styling improvement (gallery-transformation-2.dim_800x600.png)",
+      "Elegant salon interior with reception area and waiting lounge (gallery-interior-1.dim_800x600.png)",
+      "Modern salon workspace with styling stations and professional lighting (gallery-interior-2.dim_800x600.png)"
+    ],
+    "edits": []
+  }
+}

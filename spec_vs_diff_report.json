@@ -1,0 +1,48 @@
+{
+  "kind": "spec_vs_diff_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-19T07:56:27.143Z",
+  "summary": "The diff implements all 10 requirements for Marisol's Beauty Salon website including hero section, about, services, booking form with backend integration, gallery, reviews, contact section with embedded map, color palette application, mobile responsiveness, and static image rendering. All acceptance criteria are addressed with proper frontend components, backend booking storage using Motoko single-actor architecture, and preserved contact details.",
+  "missing_requirements": [],
+  "hallucinated_features": [
+    {
+      "description": "Footer component with caffeine.ai attribution link and UTM tracking parameters",
+      "reason": "Footer component was not requested in the BuildRequest. While harmless, it was not part of any requirement or acceptance criteria.",
+      "evidence": [
+        "frontend/src/components/Footer.tsx"
+      ]
+    },
+    {
+      "description": "Dark mode color palette definitions in index.css",
+      "reason": "Dark mode theme was not requested. REQ-8 specified only light mode colors (rose gold, beige, white, black accents). Dark mode variables and theming were added without being requested.",
+      "evidence": [
+        "frontend/src/index.css",
+        "frontend/index.css"
+      ]
+    }
+  ],
+  "confidence": 0.95,
+  "changed_files": [
+    "all_files_summary.json",
+    "backend/main.mo",
+    "frontend-file-summaries.txt",
+    "frontend/index.css",
+    "frontend/index.html",
+    "frontend/src/App.tsx",
+    "frontend/src/components/AboutSection.tsx",
+    "frontend/src/components/BookingForm.tsx",
+    "frontend/src/components/ContactSection.tsx",
+    "frontend/src/components/Footer.tsx",
+    "frontend/src/components/GallerySection.tsx",
+    "frontend/src/components/HeroSection.tsx",
+    "frontend/src/components/ReviewsSection.tsx",
+    "frontend/src/components/ServicesSection.tsx",
+    "frontend/src/hooks/useActor.ts",
+    "frontend/src/hooks/useInternetIdentity.ts",
+    "frontend/src/hooks/useQueries.ts",
+    "frontend/src/index.css",
+    "frontend/src/main.tsx",
+    "frontend/tailwind.config.js",
+    "project_state.json"
+  ]
+}

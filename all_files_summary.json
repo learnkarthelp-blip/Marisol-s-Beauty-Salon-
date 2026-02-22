@@ -1,0 +1,23 @@
+{
+  "backend/main.mo": "Motoko actor defining a Booking type and canister functions to submit bookings (submitBooking) and retrieve all bookings (getAllBookings), storing data in a Map with auto-incrementing IDs.",
+  "feature_evidence.json": "Feature evidence report documenting implemented features including hero section, about section, services section, booking form, gallery, reviews, contact, and footer with associated files and test IDs.",
+  "frontend-file-summaries.txt": "JSON object containing one-sentence summaries of all frontend files including components, hooks, styles, and configuration files for the beauty salon website.",
+  "frontend/index.css": "Tailwind CSS base styles defining OKLCH color system variables for light and dark modes with rose gold, beige, cream, and charcoal palette.",
+  "frontend/index.html": "HTML entry point with SEO meta tags for Marisol's Beauty Salon, local keywords, and Google Fonts preconnect for Inter and Playfair Display fonts.",
+  "frontend/src/App.tsx": "Main React component rendering all sections of the beauty salon website in sequence: hero, about, services, booking, gallery, reviews, contact, and footer.",
+  "frontend/src/components/AboutSection.tsx": "About section component displaying Marisol's professional image, 4.6-star rating with star icons, and descriptive text about salon services and philosophy.",
+  "frontend/src/components/BookingForm.tsx": "Booking form component with controlled inputs for name, phone, email, service dropdown, date, and time that submits to backend via useSubmitBooking mutation with toast notifications.",
+  "frontend/src/components/ContactSection.tsx": "Contact section displaying address, click-to-call phone number, business hours in cards, and embedded Google Maps iframe in a two-column grid layout.",
+  "frontend/src/components/Footer.tsx": "Footer component showing copyright with current year and attribution link to caffeine.ai with UTM tracking parameters based on hostname.",
+  "frontend/src/components/GallerySection.tsx": "Displays a grid of salon gallery images (transformations and interior shots) with hover effects showing image descriptions.",
+  "frontend/src/components/HeroSection.tsx": "Full-screen hero section with background image, salon tagline, and call-to-action buttons for booking appointments and calling the salon.",
+  "frontend/src/components/ReviewsSection.tsx": "Shows customer reviews in a card grid with star ratings and displays an overall 4.6/5 rating based on Google Reviews.",
+  "frontend/src/components/ServicesSection.tsx": "Displays salon services (haircut, coloring, treatments, blow dry, beauty) in cards with images, descriptions, and starting prices.",
+  "frontend/src/hooks/useActor.ts": "React hook that creates and manages the backend actor instance based on Internet Identity authentication state, invalidating dependent queries on identity changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Provides Internet Identity authentication context and hooks for login/logout functionality using DFINITY's AuthClient.",
+  "frontend/src/hooks/useQueries.ts": "Defines React Query hooks for submitting bookings and fetching all bookings from the backend actor.",
+  "frontend/src/index.css": "Tailwind CSS configuration with custom rose gold/beige color palette, light/dark mode variables, and utility classes for the salon theme.",
+  "frontend/src/main.tsx": "Application entry point that sets up React Query and Internet Identity providers, then renders the App component.",
+  "frontend/tailwind.config.js": "Tailwind CSS configuration file defining custom color palette (rose gold, beige, cream, charcoal), typography plugins, container queries, animations, and design tokens using OKLCH color space with CSS variables.",
+  "project_state.json": "Project state document for Marisol's Beauty Salon website defining architecture (single-page, mobile-first, rose gold/beige palette), existing features (hero, about, services, booking, gallery, reviews, contact sections), and required image assets with dimensions."
+}

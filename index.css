@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --radius: 0.75rem;
+        
+        /* Rose Gold & Beige Palette */
+        --rosegold: 0.68 0.12 35;
+        --rosegold-dark: 0.58 0.14 35;
+        --cream: 0.95 0.02 60;
+        --beige: 0.88 0.03 55;
+        --charcoal: 0.25 0 0;
+        
+        /* Light Mode */
+        --background: 1 0 0;
+        --foreground: 0.25 0 0;
+        --card: 1 0 0;
+        --card-foreground: 0.25 0 0;
+        --popover: 1 0 0;
+        --popover-foreground: 0.25 0 0;
+        --primary: 0.68 0.12 35;
+        --primary-foreground: 1 0 0;
+        --secondary: 0.95 0.02 60;
+        --secondary-foreground: 0.25 0 0;
+        --muted: 0.95 0.02 60;
+        --muted-foreground: 0.5 0 0;
+        --accent: 0.88 0.03 55;
+        --accent-foreground: 0.25 0 0;
+        --destructive: 0.577 0.245 27.325;
+        --destructive-foreground: 1 0 0;
+        --border: 0.88 0.03 55;
+        --input: 0.88 0.03 55;
+        --ring: 0.68 0.12 35;
+        --chart-1: 0.68 0.12 35;
+        --chart-2: 0.88 0.03 55;
+        --chart-3: 0.95 0.02 60;
+        --chart-4: 0.58 0.14 35;
+        --chart-5: 0.78 0.10 40;
+    }
+
+    .dark {
+        --background: 0.15 0 0;
+        --foreground: 0.98 0 0;
+        --card: 0.20 0 0;
+        --card-foreground: 0.98 0 0;
+        --popover: 0.20 0 0;
+        --popover-foreground: 0.98 0 0;
+        --primary: 0.68 0.12 35;
+        --primary-foreground: 1 0 0;
+        --secondary: 0.30 0 0;
+        --secondary-foreground: 0.98 0 0;
+        --muted: 0.30 0 0;
+        --muted-foreground: 0.70 0 0;
+        --accent: 0.35 0 0;
+        --accent-foreground: 0.98 0 0;
+        --destructive: 0.60 0.20 27;
+        --destructive-foreground: 0.98 0 0;
+        --border: 0.30 0 0;
+        --input: 0.30 0 0;
+        --ring: 0.68 0.12 35;
+        --chart-1: 0.68 0.12 35;
+        --chart-2: 0.78 0.10 40;
+        --chart-3: 0.88 0.03 55;
+        --chart-4: 0.58 0.14 35;
+        --chart-5: 0.48 0.16 30;
+    }
+
+    * {
+        @apply border-border;
+    }
+    
+    body {
+        @apply bg-background text-foreground;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+    }
+}
+
+@layer utilities {
+    .text-rosegold {
+        color: oklch(var(--rosegold));
+    }
+    
+    .bg-rosegold {
+        background-color: oklch(var(--rosegold));
+    }
+    
+    .bg-rosegold-dark {
+        background-color: oklch(var(--rosegold-dark));
+    }
+    
+    .bg-cream {
+        background-color: oklch(var(--cream));
+    }
+    
+    .bg-beige {
+        background-color: oklch(var(--beige));
+    }
+    
+    .text-charcoal {
+        color: oklch(var(--charcoal));
+    }
+    
+    .bg-charcoal {
+        background-color: oklch(var(--charcoal));
+    }
+    
+    .border-rosegold {
+        border-color: oklch(var(--rosegold));
+    }
+    
+    .border-cream {
+        border-color: oklch(var(--cream));
+    }
+}
